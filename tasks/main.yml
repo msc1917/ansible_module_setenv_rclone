@@ -1,0 +1,5 @@
+---
+- name: Install rclone
+  include_tasks: install.yml
+  when:
+    - rclone is defined

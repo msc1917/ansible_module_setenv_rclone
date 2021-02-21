@@ -1,0 +1,7 @@
+---
+- name: Install openssl-Package
+  apt:
+    name: [ "rclone" ]
+    state: present
+    update_cache: no
+  become: yes
